@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0239FDA18483F66762F43E5A /* Pods_Gamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA85EB13E6662007DF9C056 /* Pods_Gamera.framework */; };
+		E031675621493E9F00CE97DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031675521493E9F00CE97DE /* AppDelegate.swift */; };
+		E031675821493E9F00CE97DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031675721493E9F00CE97DE /* ViewController.swift */; };
+		E031675B21493E9F00CE97DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E031675921493E9F00CE97DE /* Main.storyboard */; };
+		E031675D21493EA000CE97DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E031675C21493EA000CE97DE /* Assets.xcassets */; };
+		E031676021493EA000CE97DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E031675E21493EA000CE97DE /* LaunchScreen.storyboard */; };
+		E03167682149445500CE97DE /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03167672149445500CE97DE /* PreviewView.swift */; };
+		E031676A2149454C00CE97DE /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03167692149454C00CE97DE /* CameraController.swift */; };
+		E0316776214A0DF500CE97DE /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0316771214A0D9C00CE97DE /* GPUImage.framework */; };
+		E0316778214A0E5B00CE97DE /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E0316771214A0D9C00CE97DE /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E09AFAFF21563C010065B1A9 /* H264Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09AFAFE21563C010065B1A9 /* H264Encoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0316770214A0D9C00CE97DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE0BE7C20D6DE610006E120;
+			remoteInfo = GPUImage_iOS;
+		};
+		E0316772214A0D9C00CE97DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE0BE8C20D6E2B80006E120;
+			remoteInfo = GPUImage_macOS;
+		};
+		E0316774214A0DDB00CE97DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE0BE7B20D6DE610006E120;
+			remoteInfo = GPUImage_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0316777214A0E3D00CE97DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E0316778214A0E5B00CE97DE /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B86E6C2439E5580CB54E854B /* Pods-Gamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gamera/Pods-Gamera.release.xcconfig"; sourceTree = "<group>"; };
+		CC583A413B6BC343D1F9852D /* Pods-Gamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gamera/Pods-Gamera.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA85EB13E6662007DF9C056 /* Pods_Gamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E031675221493E9F00CE97DE /* Gamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E031675521493E9F00CE97DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E031675721493E9F00CE97DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E031675A21493E9F00CE97DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E031675C21493EA000CE97DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E031675F21493EA000CE97DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E031676121493EA000CE97DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03167672149445500CE97DE /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E03167692149454C00CE97DE /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage3/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		E09AFAFE21563C010065B1A9 /* H264Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H264Encoder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E031674F21493E9F00CE97DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0316776214A0DF500CE97DE /* GPUImage.framework in Frameworks */,
+				0239FDA18483F66762F43E5A /* Pods_Gamera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA9C87713C39F19CEAC135E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA85EB13E6662007DF9C056 /* Pods_Gamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0F7FB19D4666E480138419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC583A413B6BC343D1F9852D /* Pods-Gamera.debug.xcconfig */,
+				B86E6C2439E5580CB54E854B /* Pods-Gamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E031674921493E9F00CE97DE = {
+			isa = PBXGroup;
+			children = (
+				E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */,
+				E031675421493E9F00CE97DE /* Gamera */,
+				E031675321493E9F00CE97DE /* Products */,
+				CC0F7FB19D4666E480138419 /* Pods */,
+				9AA9C87713C39F19CEAC135E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E031675321493E9F00CE97DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E031675221493E9F00CE97DE /* Gamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E031675421493E9F00CE97DE /* Gamera */ = {
+			isa = PBXGroup;
+			children = (
+				E03167672149445500CE97DE /* PreviewView.swift */,
+				E03167692149454C00CE97DE /* CameraController.swift */,
+				E09AFAFE21563C010065B1A9 /* H264Encoder.swift */,
+				E031675521493E9F00CE97DE /* AppDelegate.swift */,
+				E031675721493E9F00CE97DE /* ViewController.swift */,
+				E031675921493E9F00CE97DE /* Main.storyboard */,
+				E031675C21493EA000CE97DE /* Assets.xcassets */,
+				E031675E21493EA000CE97DE /* LaunchScreen.storyboard */,
+				E031676121493EA000CE97DE /* Info.plist */,
+			);
+			path = Gamera;
+			sourceTree = "<group>";
+		};
+		E031676C214A0D9C00CE97DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0316771214A0D9C00CE97DE /* GPUImage.framework */,
+				E0316773214A0D9C00CE97DE /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E031675121493E9F00CE97DE /* Gamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E031676421493EA000CE97DE /* Build configuration list for PBXNativeTarget "Gamera" */;
+			buildPhases = (
+				738C98FEB538CF3D2A4D7D42 /* [CP] Check Pods Manifest.lock */,
+				E031674E21493E9F00CE97DE /* Sources */,
+				E031674F21493E9F00CE97DE /* Frameworks */,
+				E031675021493E9F00CE97DE /* Resources */,
+				BFBE9347E61A3D845A3EEE0A /* [CP] Embed Pods Frameworks */,
+				E0316777214A0E3D00CE97DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0316775214A0DDB00CE97DE /* PBXTargetDependency */,
+			);
+			name = Gamera;
+			productName = Gamera;
+			productReference = E031675221493E9F00CE97DE /* Gamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E031674A21493E9F00CE97DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Peng Guo";
+				TargetAttributes = {
+					E031675121493E9F00CE97DE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E031674D21493E9F00CE97DE /* Build configuration list for PBXProject "Gamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E031674921493E9F00CE97DE;
+			productRefGroup = E031675321493E9F00CE97DE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E031676C214A0D9C00CE97DE /* Products */;
+					ProjectRef = E031676B214A0D9C00CE97DE /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E031675121493E9F00CE97DE /* Gamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E0316771214A0D9C00CE97DE /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = E0316770214A0D9C00CE97DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E0316773214A0D9C00CE97DE /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = E0316772214A0D9C00CE97DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E031675021493E9F00CE97DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E031676021493EA000CE97DE /* LaunchScreen.storyboard in Resources */,
+				E031675D21493EA000CE97DE /* Assets.xcassets in Resources */,
+				E031675B21493E9F00CE97DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		738C98FEB538CF3D2A4D7D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBE9347E61A3D845A3EEE0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gamera/Pods-Gamera-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gamera/Pods-Gamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E031674E21493E9F00CE97DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E031675821493E9F00CE97DE /* ViewController.swift in Sources */,
+				E09AFAFF21563C010065B1A9 /* H264Encoder.swift in Sources */,
+				E031675621493E9F00CE97DE /* AppDelegate.swift in Sources */,
+				E031676A2149454C00CE97DE /* CameraController.swift in Sources */,
+				E03167682149445500CE97DE /* PreviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0316775214A0DDB00CE97DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = E0316774214A0DDB00CE97DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E031675921493E9F00CE97DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E031675A21493E9F00CE97DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E031675E21493EA000CE97DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E031675F21493EA000CE97DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E031676221493EA000CE97DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E031676321493EA000CE97DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E031676521493EA000CE97DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC583A413B6BC343D1F9852D /* Pods-Gamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K8UAH3FUM;
+				INFOPLIST_FILE = Gamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.pengguo.Gamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E031676621493EA000CE97DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86E6C2439E5580CB54E854B /* Pods-Gamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K8UAH3FUM;
+				INFOPLIST_FILE = Gamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.pengguo.Gamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E031674D21493E9F00CE97DE /* Build configuration list for PBXProject "Gamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E031676221493EA000CE97DE /* Debug */,
+				E031676321493EA000CE97DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E031676421493EA000CE97DE /* Build configuration list for PBXNativeTarget "Gamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E031676521493EA000CE97DE /* Debug */,
+				E031676621493EA000CE97DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E031674A21493E9F00CE97DE /* Project object */;
+}
